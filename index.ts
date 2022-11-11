@@ -37,7 +37,7 @@ export interface MastodonAccount {
 }
 
 const plugin: MastodonPlugin = {
-    runEveryMinute: async ({ config }: MastodonMeta) => {
+    runEveryDay: async ({ config }: MastodonMeta) => {
         const account = await get(config.hostname, config.user_id)
         posthog.capture('mastodon_followers', {
             username: account.username,
