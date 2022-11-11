@@ -1,7 +1,7 @@
 {
-  "name": "Mastodon Plugin",
+  "name": "Mastodon Followers",
   "url": "https://github.com/zegl/posthog-mastodon-plugin",
-  "description": "Mastodon Followers",
+  "description": "Get your Mastodon follower counts daily",
   "main": "index.ts",
   "config": [
     {
