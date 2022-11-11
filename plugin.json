@@ -11,14 +11,14 @@
       "key": "hostname",
       "name": "Mastodon Instance Hostname",
       "type": "string",
-      "hint": "This will be sent in a **property**",
+      "hint": "The mastodon instance that the user is registered on. Eg: mastodon.se",
       "required": true
     },
     {
       "key": "user_id",
       "name": "User ID",
       "type": "string",
-      "hint": "User ID (not the same as a @handle)",
+      "hint": "User ID (not the same as a @handle). Eg: 109285229749996967",
       "required": true
     }
   ]
