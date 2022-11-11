@@ -1,0 +1,25 @@
+{
+  "name": "Mastodon Plugin",
+  "url": "https://github.com/zegl/posthog-mastodon-plugin",
+  "description": "Mastodon Followers",
+  "main": "index.ts",
+  "config": [
+    {
+      "markdown": "Track your Mastodon Account"
+    },
+    {
+      "key": "hostname",
+      "name": "Mastodon Instance Hostname",
+      "type": "string",
+      "hint": "This will be sent in a **property**",
+      "required": true
+    },
+    {
+      "key": "user_id",
+      "name": "User ID",
+      "type": "string",
+      "hint": "User ID (not the same as a @handle)",
+      "required": true
+    }
+  ]
+}
